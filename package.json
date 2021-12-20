@@ -1,0 +1,24 @@
+{
+  "name": "dex-swap-component",
+  "version": "1.0.0",
+  "description": "Swap component for DEXs based in Uniswap-V2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danswar/dex-swap-component.git"
+  },
+  "keywords": [
+    "dex",
+    "swap",
+    "uniswap"
+  ],
+  "author": "Daniel Padrino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danswar/dex-swap-component/issues"
+  },
+  "homepage": "https://github.com/Danswar/dex-swap-component#readme"
+}
