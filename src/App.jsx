@@ -1,5 +1,10 @@
 import React from "react";
+import styled from "styled-components";
+
+const Container = styled.div`
+  background: green;
+`;
 
 export const App = () => {
-  return <div>Hello app</div>;
+  return <Container>Hello app</Container>;
 };
