@@ -5,17 +5,19 @@
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
-    "build:lib": "rollup -c"
+    "build:lib": "rollup -c",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-react": "^7.12.10",
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^11.1.1",
-    "@storybook/addon-actions": "^6.1.16",
-    "@storybook/addon-essentials": "^6.1.16",
-    "@storybook/addon-links": "^6.1.16",
-    "@storybook/react": "^6.1.16",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/react": "^6.4.9",
     "babel-loader": "^8.2.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -43,5 +45,6 @@
   "bugs": {
     "url": "https://github.com/Danswar/dex-swap-component/issues"
   },
-  "homepage": "https://github.com/Danswar/dex-swap-component#readme"
+  "homepage": "https://github.com/Danswar/dex-swap-component#readme",
+  "dependencies": {}
 }
