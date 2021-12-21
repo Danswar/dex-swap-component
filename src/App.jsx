@@ -2,7 +2,7 @@ import React from "react";
 import { createGlobalStyle } from "styled-components";
 
 import { SettingsButton, MainButton } from "./components/UI/Buttons";
-import { Title } from "./components/UI/Typographys";
+import { Title } from "./components/UI/Typographies";
 import Container from "./components/UI/Container";
 import TokenInput from "./components/TokenInput";
 import InvertButton from "./components/InvertButton";
