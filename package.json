@@ -1,5 +1,5 @@
 {
-  "name": "dex-swap-component",
+  "name": "@danswar/dex-swap-component",
   "version": "1.0.0",
   "description": "Swap component for DEXs based in Uniswap-V2",
   "main": "dist/index.js",
