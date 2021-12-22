@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-export const App = () => {
+export const DexSwap = () => {
   return (
     <Container>
       <GlobalStyle />
